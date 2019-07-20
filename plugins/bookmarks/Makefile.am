@@ -12,7 +12,7 @@ plugin_LTLIBRARIES = libbookmarks.la
 
 libbookmarks_la_SOURCES = \
 	pluma-bookmarks-plugin.h			\
-	pluma-bookmarks-plugin.c
+	pluma-bookmarks-plugin.c	
 
 libbookmarks_la_LDFLAGS = $(PLUGIN_LIBTOOL_FLAGS)				\
 libbookmarks_la_LDADD =	$(PLUMA_LIBS)
@@ -30,7 +30,7 @@ plugin_DATA = $(BUILDFILES)
 
 EXTRA_DIST = $(support_DATA)
 
-CLEANFILES = $(BUILDFILES)
+CLEANFILES = $(BUILDFILES) 
 DISTCLEANFILES = $(BUILDFILES)
 
 -include $(top_srcdir)/git.mk
